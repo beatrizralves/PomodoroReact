@@ -1,0 +1,31 @@
+.timer {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .btn,
+  .reset-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+.btn:hover,
+.reset-button:hover {
+  background-color: #3f4a60;
+}
+
+.btn,
+.reset-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #525e77;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

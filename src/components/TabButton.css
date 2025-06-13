@@ -1,0 +1,44 @@
+.tab-button {
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+.tab-button.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.25);
+}
+
+@media (max-width: 500px) {
+  .tab-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+.pomodoro-button {
+  background-color: #f26b83;
+}
+.pomodoro-button:hover {
+  background-color: #f24968;
+}
+
+.short-button {
+  background-color: #59d979;
+}
+.short-button:hover {
+  background-color: #04bf45;
+}
+
+.long-button {
+  background-color: #f2c572;
+}
+.long-button:hover {
+  background-color: #f2b04c;
+}
